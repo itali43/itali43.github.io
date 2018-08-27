@@ -125,7 +125,7 @@
 								<li class="nav-item">
 									<a class="nav-link no-line" href="#">Variants</a>
 									<ul class="background-white sub-shadow">
-										<li><a href="index.html" class="active-subnav">From developers</a></li>
+										<li><a href="index.html">From developers</a></li>
 										<li><a href="index-11.html">Countdown gradient</a></li>
 										<li><a href="index-2.html">Crowdsale</a></li>
 										<li><a href="index-9.html">Azure blockchain - animated</a></li>
@@ -133,7 +133,7 @@
 										<li><a href="index-4.html">Crowdsale - dark</a></li>
 										<li><a href="index-5.html">From developers - animated</a></li>
 										<li><a href="index-10.html">Countdown gradient anime</a></li>
-										<li><a href="index-6.html">Crowdsale - animated</a></li>
+										<li><a href="index-6.html" class="active-subnav">Crowdsale - animated</a></li>
 										<li><a href="index-7.html">From developers - anime dark</a></li>
 										<li><a href="index-8.html">Crowdsale - animated dark</a></li>
 									</ul>
@@ -153,44 +153,71 @@
 	<!-- Primary Page Layout
 	================================================== -->
 
-	<div class="section full-height height-auto-lg hide-over background-light-blue">
-		<div class="hero-center-wrap relative-on-lg">
+	<div class="section big-85-height">
+		<div class="background-path">
+			<svg class="scene" preserveAspectRatio="none" viewBox="0 0 1440 800" >
+				<path d="M -84.52,-81.13 C -94.62,-73.4 -88.88,-59.55 -90.33,-48.91 -89.29,27.31 -89.61,103.5 -88.33,179.8 -85.99,416.1 -81.32,888.9 -81.32,888.9 -81.32,888.9 974.5,888.7 1587,891.9 1518,719.9 1487,644 1429,533 1388,437.7 1447,259.7 1400,187 1362,132 1270,90.53 1207,39.93 1161,2.932 1071,-74.45 1071,-74.45 1071,-74.45 914.5,-77.77 848.2,-80.17 537.6,-80.84 227,-81.38 -83.6,-81.6 -83.91,-81.44 -84.21,-81.29 -84.52,-81.13 Z" class="M -84.52,-81.13 C -94.62,-73.4 -88.88,-59.55 -90.33,-48.91 -89.29,27.31 -89.61,103.5 -88.33,179.8 -85.99,416.1 -81.32,888.9 -81.32,888.9 -81.32,888.9 974.5,888.7 1587,891.9 1576,704.7 1517,625.7 1459,514.7 1418,419.4 1430,288.5 1382,187 1349,116.3 1296,54.47 1240,0.3429 1205,-33.51 1120,-83.59 1120,-83.59 1120,-83.59 914.5,-77.77 848.2,-80.17 537.6,-80.84 227,-81.38 -83.6,-81.6 -83.91,-81.44 -84.21,-81.29 -84.52,-81.13 Z"></path>
+				<path d="M 665.2,-83.08 C 413.7,-81.89 162.2,-82.43 -89.29,-81.61 -90.35,164.3 -85.06,410.2 -84.09,656.1 -83.37,733.7 -82.64,811.3 -81.92,888.9 442.4,889.8 966.7,890.7 1491,891.6 1253,747.5 1417,429.4 1286,245.4 1227,163.2 1107,142.1 1043,64.54 1009,24.41 973,-76.01 973,-76.01 973,-76.01 706.6,-83.67 665.2,-83.08 Z" class="M 665.2,-83.08 C 413.7,-81.89 162.2,-82.43 -89.29,-81.61 -90.35,164.3 -85.06,410.2 -84.09,656.1 -83.37,733.7 -82.64,811.3 -81.92,888.9 442.4,889.8 966.7,890.7 1491,891.6 1253,747.5 1349,460.4 1243,260.6 1199,176.6 1145,96.92 1083,24.95 1050,-12.63 973,-76.01 973,-76.01 973,-76.01 706.6,-83.67 665.2,-83.08 Z"></path>
+				<path d="M -85.01,-74.02 C -92.39,-66.64 -85.37,-55.79 -87.81,-46.91 -86.65,265.1 -84.66,577.2 -83.18,889.2 317.2,888.3 717.5,885.8 1118,890.4 1152,890.6 1187,890.9 1221,890 1219,768.3 1224,643.6 1187,526 1153,417 1091,319.3 1029,224.1 998.8,178.5 968.8,132.6 936.6,88.23 891.7,27.39 772.2,-78.96 772.2,-78.96 772.2,-78.96 222.1,-81.07 -85.01,-74.02 Z" class="M -85.01,-74.02 C -92.39,-66.64 -85.37,-55.79 -87.81,-46.91 -86.65,265.1 -84.66,577.2 -83.18,889.2 317.2,888.3 717.5,885.8 1118,890.4 1152,890.6 1187,890.9 1221,890 1219,768.3 1175,659.3 1150,544.3 1128,438.4 1143,312.6 1081,227.1 1004,121.1 925.8,114.8 851.3,54.73 762,-17.34 772.2,-78.96 772.2,-78.96 772.2,-78.96 222.1,-81.07 -85.01,-74.02 Z"></path>
+				<path d="M -92.42,-79.11 C -89.97,243.8 -87.52,566.7 -85.07,889.6 201.8,889.9 488.7,889.9 775.5,895.6 880.4,896.9 985.2,894 1090,892.5 1064,773.3 1037,651.6 976.1,544.8 946.7,495.8 914.6,448.3 882,401.3 820.9,314.4 742.3,252 666.4,177.4 583.2,98.01 496.5,12.18 386.7,-23.38 328.4,-45.64 232.6,-81.38 232.6,-81.38 232.6,-81.38 9.82,-84.94 -92.42,-79.11 Z" class="M -92.42,-79.11 C -89.97,243.8 -87.52,566.7 -85.07,889.6 201.8,889.9 488.7,889.9 775.5,895.6 880.4,896.9 1063,889.5 1063,889.5 1063,889.5 1081,768.2 997.4,608.7 958.5,534.8 969.9,436.8 918.5,370.8 848.4,280.8 717,260.3 629.9,186.5 552.6,121.2 491.5,38.73 426.3,-38.61 412.9,-54.44 387.9,-87.47 387.9,-87.47 387.9,-87.47 9.82,-84.94 -92.42,-79.11 Z"></path>
+				<path d="M -88.6,95.54 C -90.38,166.1 -88.23,236.7 -88.68,307.4 L -86.19,890 C 229.7,890.2 939.8,892.4 939.8,892.4 855.2,767 831,639.4 721.4,519.4 634.7,424.5 526.4,360.9 428.8,281.8 332.7,204 251.6,102.3 140.1,48.9 70.75,15.73 -24.82,24.2 -85.28,0.03 Z" class="M -88.6,95.54 C -90.38,166.1 -88.23,236.7 -88.68,307.4 L -86.19,890 C 229.7,890.2 939.8,892.4 939.8,892.4 906.9,734.7 779.3,676 721.4,519.4 676.8,398.8 566.5,307.1 458.9,236.6 355.2,168.7 220.3,165.7 107.8,113.5 40.05,82.12 -24.82,24.2 -85.28,0.03 Z"></path>
+				<path d="M -95.69,252.3 -87.65,890.4 698.1,892 C 698.1,892 599.1,687.7 518.9,610.6 348,446.2 131.4,466.5 -95.69,252.3 Z" class="M -95.69,252.3 -87.65,890.4 698.1,892 C 698.1,892 569.8,587.1 448.9,482.7 299.7,353.9 131.4,466.5 -95.69,252.3 Z"></path>
+				<path d="M -85.59,444.4 -85.59,890.6 489,895.6 C 489,895.6 436.8,745.3 382.5,690.8 258.1,565.8 57.98,629.2 -85.59,444.4 Z" class="M -85.59,444.4 -85.59,890.6 546.9,895.6 C 546.9,895.6 517.4,695.4 339.9,593.4 187.7,505.9 57.98,629.2 -85.59,444.4 Z"></path>
+			</svg>
+		</div>
+		<div class="hero-center-wrap">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6 text-center text-lg-left parallax-fade-top align-self-center z-bigger">
-						<h2>Real tech from real developers.</h2>
-						<p class="mt-3 mb-4 pb-3 font-weight-normal">We’ve built companies from the ground up, served hundreds of millions of users and completed multiple exits.</p>
-						<a class="btn btn-primary ml-lg-0 js-tilt" href="#" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Whitepaper</span></a>
+					<div class="col-md-12 text-center mb-1 parallax-fade-top">
+						<p>Crowdsale <span class="back-color">Live</span> <span class="font-big-color">35% Off</span></p>
+					</div>
+					<div class="col-md-12 text-center parallax-fade-top">
+						<h1>Invest in the world's<br>biggest crypto</h1>
+					</div>
+					<div class="col-md-12 text-center mt-4 mt-lg-5 parallax-fade-top">
+						<a class="btn btn-primary js-tilt" href="#" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Whitepaper</span></a>
 						<a class="btn btn-primary js-tilt" href="#app" data-gal="m_PageScroll2id" data-ps2id-offset="68" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Download App</span></a>
 					</div>
-					<div class="col-lg-6 mt-5 mt-lg-0">
-						<div class="img-wrap header-img">
-							<img src="img/home-il.svg" alt="">
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="section z-bigger">
+		<div class="background-parallax" style="background-image: url('img/parallax.jpg')" data-enllax-ratio=".5" data-enllax-type="background" data-enllax-direction="vertical"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6 offset-lg-3">
+					<div class="countdown background-dark-blue-1 translateY-70 big-shadow-down">
+						<p class="mb-4 mb-lg-5"><span>35% discount</span> croudsale ends in:</p>
+						<div class="section">
+							<ul>
+								<li class="background-dark-blue"><span id="days"></span>days</li>
+								<li class="background-dark-blue"><span id="hours"></span>hours</li>
+								<li class="background-dark-blue"><span id="minutes"></span>minutes</li>
+								<li class="background-dark-blue"><span id="seconds"></span>seconds</li>
+							</ul>
 						</div>
+						<p class="mt-4 mb-0"><small>Available at 0.65$</small></p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="ocean">
-			<div class="wave"></div>
-			<div class="wave"></div>
-		</div>
-		<div id="particles-js" class="min-height"></div>
-	</div>
-
-	<div class="section z-bigger">
 		<div class="section padding-bottom-big" id="buy">
-		<div class="section">
+		<div class="section mb-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 text-center mt-4">
+					<div class="col-md-8 offset-md-2" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<p class="lead text-center">We are the only global mining operation - not affected by issues like energy price spikes, hardware shortages, governmental issues or fixed, stationary locations.</p>
+					</div>
+					<div class="col-md-12 text-center mt-4" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 						<a class="btn btn-primary js-tilt" href="#" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Buy Tokens 35% Off</span></a>
 					</div>
-					<div class="col-md-12 mt-5">
+					<div class="col-md-12 mt-5" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 						<p class="text-center">payment methods</p>
 					</div>
 					<div class="col-md-12 mt-1">
-						<ul class="payment-methods">
+						<ul class="payment-methods" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 							<li><img src="img/bitcoin.png" alt=""><p>bitcoin</p></li>
 							<li><img src="img/etherium.png" alt=""><p>ethereum</p></li>
 							<li><img src="img/litecoin.png" alt=""><p>litecoin</p></li>
@@ -200,11 +227,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="section padding-top-big">
+		<div class="section mt-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-3 col-sm-6">
-						<div class="table-sale background-grey">
+					<div class="col-xl-3 col-sm-6" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="table-sale background-white">
 							<p class="text-center"><span>50% Off</span></p>
 							<div class="table-line mt-4 mb-4"></div>
 							<h4 class="text-center">1 coe</h4>
@@ -215,7 +242,7 @@
 							<a class="btn disabled mt-5" href="#" role="button"><span>Sold Out</span></a>
 						</div>
 					</div>
-					<div class="col-xl-3 col-sm-6 mt-4 mt-sm-0">
+					<div class="col-xl-3 col-sm-6 mt-4 mt-sm-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
 						<div class="table-sale background-color table-shadow">
 							<h4 class="text-center">now</h4>
 							<div class="table-line mt-4 mb-4"></div>
@@ -227,8 +254,8 @@
 							<a class="btn btn-primary table-ver mt-5 js-tilt" href="#" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Buy 35% Off</span></a>
 						</div>
 					</div>
-					<div class="col-xl-3 col-sm-6 mt-4 mt-xl-0">
-						<div class="table-sale background-grey future-price">
+					<div class="col-xl-3 col-sm-6 mt-4 mt-xl-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
+						<div class="table-sale background-white future-price">
 							<p class="text-center"><span>25% Off</span></p>
 							<div class="table-line mt-4 mb-4"></div>
 							<h4 class="text-center">1 coe</h4>
@@ -236,11 +263,11 @@
 							<div class="table-line mt-4 mb-4"></div>
 							<p class="text-center">Available 6M Tokens</p>
 							<p class="text-center">April 16 - 25</p>
-							<a class="btn disabled mt-5 background-white" href="#" role="button"><span>25 days</span></a>
+							<a class="btn disabled mt-5" href="#" role="button"><span>25 days</span></a>
 						</div>
 					</div>
-					<div class="col-xl-3 col-sm-6 mt-4 mt-xl-0">
-						<div class="table-sale background-grey future-price">
+					<div class="col-xl-3 col-sm-6 mt-4 mt-xl-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.9s">
+						<div class="table-sale background-white future-price">
 							<p class="text-center"><span>10% Off</span></p>
 							<div class="table-line mt-4 mb-4"></div>
 							<h4 class="text-center">1 coe</h4>
@@ -248,25 +275,7 @@
 							<div class="table-line mt-4 mb-4"></div>
 							<p class="text-center">Available 4M Tokens</p>
 							<p class="text-center">April 26 - May 10</p>
-							<a class="btn disabled mt-5 background-white" href="#" role="button"><span>40 days</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container padding-top-big">
-				<div class="row">
-					<div class="col-12 col-lg-6 offset-lg-3">
-						<div class="countdown background-dark-blue-1 big-shadow-down">
-							<p class="mb-4 mb-lg-5"><span>35% discount</span> croudsale ends in:</p>
-							<div class="section">
-								<ul>
-									<li class="background-dark-blue"><span id="days"></span>days</li>
-									<li class="background-dark-blue"><span id="hours"></span>hours</li>
-									<li class="background-dark-blue"><span id="minutes"></span>minutes</li>
-									<li class="background-dark-blue"><span id="seconds"></span>seconds</li>
-								</ul>
-							</div>
-							<p class="mt-4 mb-0"><small>Available at 0.65$</small></p>
+							<a class="btn disabled mt-5" href="#" role="button"><span>40 days</span></a>
 						</div>
 					</div>
 				</div>
@@ -282,7 +291,7 @@
 							<h5 class="color-light">overall output over 60 months:</h5>
 						</div>
 					</div>
-					<div class="col-md-12">	
+					<div class="col-md-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">	
 						<div class="line-chart">
 							<div class="aspect-ratio">
 								<canvas id="chart"></canvas>
@@ -304,21 +313,21 @@
 						<p>Lend your digital assets to others for trading and earn an interest through margin trading loans.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 					<div class="concept-box">
 						<img class="mb-4" src="img/con-1.svg" alt="">
 						<h5>Independent</h5>
 						<p>Our mobility concept enables super-simple transportation and worldwide deployment.</p>
 					</div>
 				</div>
-				<div class="col-md-4 mt-4 mt-md-0">
+				<div class="col-md-4 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
 					<div class="concept-box">
 						<img class="mb-4" src="img/con-2.svg" alt="">
 						<h5>Fully Scalable</h5>
 						<p>Mobile and efficient low-cost hardware and optimized propietary management.</p>
 					</div>
 				</div>
-				<div class="col-md-4 mt-4 mt-md-0">
+				<div class="col-md-4 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
 					<div class="concept-box">
 						<img class="mb-4" src="img/con-3.svg" alt="">
 						<h5>High Growth</h5>
@@ -332,7 +341,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 align-self-center">
+				<div class="col-md-6 align-self-center" data-scroll-reveal="enter left move 50px over 0.6s after 0.3s">
 					<h4>Creating a win-win<br>for everyone</h4>
 					<p class="lead">An exciting business opportunity should come with equally exciting rewards.</p>
 					<p>Early adopters can earn up to a 200% bonus based on the final token value should we reach our 100 mil tokens hardcap during our planned token sale event.</p>
@@ -357,7 +366,7 @@
 						<img src="img/2.svg" alt="">
 					</div>
 				</div>
-				<div class="col-md-6 offset-md-1 align-self-center">
+				<div class="col-md-6 offset-md-1 align-self-center" data-scroll-reveal="enter right move 50px over 0.6s after 0.3s">
 					<h4>More than just a price jump</h4>
 					<p>The Coeus token sale events are unique as they offer tiered bonuses which include not only an increasing token price but also lifetime discounts, a commitment from us to support our tokens liquidity and future value, as well as access to future pre-pre-Token sale events.</p>
 						<a class="btn btn-primary mt-4 mx-0 js-tilt" href="#buy" data-gal="m_PageScroll2id" data-ps2id-offset="120" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Buy Tokens</span></a>
@@ -439,7 +448,7 @@
 						<h5>How it works:</h5>
 					</div>
 				</div>
-				<div class="col-md-8 offset-md-2">
+				<div class="col-md-8 offset-md-2" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 					<div class="video-section video-shadow">
 						<figure class="vimeo"> 
 							<a href="https://player.vimeo.com/video/239566739">
@@ -467,7 +476,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 align-self-center">
+				<div class="col-md-6 align-self-center" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 					<h4>It begins with total security.</h4>
 					<p class="lead">View, manage and sort all your tokens easily. Providing fast coin management in your local currency.</p>
 					<ul class="app-list mb-5 mt-4">
@@ -531,7 +540,7 @@
 		</div>
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+				<div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 					<div class="team-wrap">
 						<a class="d-inline" data-toggle="modal" data-target="#team-modal-1">
 							<div class="team-img-wrap js-tilt" data-tilt-perspective="700" data-tilt-speed="700" data-tilt-max="24">
@@ -547,7 +556,7 @@
 						<a class="app-btn ml-3" href="#"><i class="fa fa-git"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+				<div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
 					<div class="team-wrap">
 						<a class="d-inline" data-toggle="modal" data-target="#team-modal-2">
 							<div class="team-img-wrap js-tilt" data-tilt-perspective="700" data-tilt-speed="700" data-tilt-max="24">
@@ -561,7 +570,7 @@
 						<a class="app-btn ml-3" href="#"><i class="fa fa-git"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
 					<div class="team-wrap">
 						<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
 							<div class="team-img-wrap js-tilt" data-tilt-perspective="700" data-tilt-speed="700" data-tilt-max="24">
@@ -581,7 +590,7 @@
 						<h5>Advisory team</h5>
 					</div>
 				</div>
-				<div class="col-xl-3 col-md-6 mb-5 mb-xl-0">
+				<div class="col-xl-3 col-md-6 mb-5 mb-xl-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 					<div class="team-wrap">
 						<a class="d-inline" data-toggle="modal" data-target="#team-modal-4">
 							<div class="team-img-wrap js-tilt" data-tilt-perspective="700" data-tilt-speed="700" data-tilt-max="24">
@@ -597,7 +606,7 @@
 						<a class="app-btn ml-3" href="#"><i class="fa fa-git"></i></a>
 					</div>
 				</div>
-				<div class="col-xl-3 col-md-6 mb-5 mb-xl-0">
+				<div class="col-xl-3 col-md-6 mb-5 mb-xl-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
 					<div class="team-wrap">
 						<a class="d-inline" data-toggle="modal" data-target="#team-modal-5">
 							<div class="team-img-wrap js-tilt" data-tilt-perspective="700" data-tilt-speed="700" data-tilt-max="24">
@@ -611,7 +620,7 @@
 						<a class="app-btn ml-3" href="#"><i class="fa fa-facebook"></i></a>
 					</div>
 				</div>
-				<div class="col-xl-3 col-md-6 mb-5 mb-xl-0">
+				<div class="col-xl-3 col-md-6 mb-5 mb-xl-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
 					<div class="team-wrap">
 						<a class="d-inline" data-toggle="modal" data-target="#team-modal-6">
 							<div class="team-img-wrap js-tilt" data-tilt-perspective="700" data-tilt-speed="700" data-tilt-max="24">
@@ -626,7 +635,7 @@
 						<a class="app-btn ml-3" href="#"><i class="fa fa-facebook"></i></a>
 					</div>
 				</div>
-				<div class="col-xl-3 col-md-6">
+				<div class="col-xl-3 col-md-6" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.9s">
 					<div class="team-wrap">
 						<a class="d-inline" data-toggle="modal" data-target="#team-modal-7">
 							<div class="team-img-wrap js-tilt" data-tilt-perspective="700" data-tilt-speed="700" data-tilt-max="24">
@@ -975,7 +984,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 					<div id="accordion" class="accordion-style">
 						<div class="card">
 							<div class="card-header" id="headingOne">
@@ -1021,7 +1030,7 @@
 						</div>
 					</div>				
 				</div>
-				<div class="col-md-6 mt-4 mt-md-0">
+				<div class="col-md-6 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
 					<div id="accordion-snd" class="accordion-style">
 						<div class="card">
 							<div class="card-header" id="headingFour">
@@ -1087,21 +1096,21 @@
 		</div>
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-md-3">
+				<div class="col-md-3" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 					<div class="contact-det text-center">
 						<img src="img/contact-1.svg" alt="">
 						<h6>Phone</h6>
 						<p>+54 12 346 7826</p>
 					</div>
 				</div>
-				<div class="col-md-3 mt-4 mt-md-0">
+				<div class="col-md-3 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
 					<div class="contact-det text-center">
 						<img src="img/contact-2.svg" alt="">
 						<h6>Email</h6>
 						<p>office@coeus.ico</p>
 					</div>
 				</div>
-				<div class="col-md-3 mt-4 mt-md-0">
+				<div class="col-md-3 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
 					<div class="contact-det text-center">
 						<img src="img/contact-3.svg" alt="">
 						<h6>Address</h6>
@@ -1109,7 +1118,7 @@
 					</div>
 				</div>
 			</div>
-			<form id="contact-form" class="mt-5" method="post" action="contact.php" role="form">
+			<form id="contact-form" class="mt-5" method="post" action="contact.php" role="form" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 				<div class="row justify-content-center">
 					<div class="col-md-8">
 						<div class="messages text-center"></div>
@@ -1222,8 +1231,8 @@
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script> 
+	<script src="js/shape-svg.js"></script>
 	<script src="js/chart-custom.js"></script>  
-	<script src="js/particles.js"></script> 
 	<script src="js/custom.js"></script>  
 	
 <!-- End Document
