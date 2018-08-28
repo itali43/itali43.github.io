@@ -235,6 +235,17 @@ mark{
 	width:130%;
 	display:block;
 }
+.img-wrap3 img {
+	width:15%;
+	/*display:flex;*/
+}
+.img-wrapMOON img {
+	width:100%;
+	display:block;
+	z-index: 20;
+}
+
+
 
 .z-bigger  {
 	z-index:10;
@@ -791,6 +802,7 @@ mark{
 }
 .ocean.dark{
 	background: #0e0529;
+	z-index: 300;
 }
 .ocean.dark .wave{
 	background: url('../img/wave-dark.svg') repeat-x;
