@@ -231,6 +231,11 @@ mark{
 	width:100%;
 	display:block;
 }
+.img-wrap2 img {
+	width:50%;
+	display:block;
+}
+
 .z-bigger  {
 	z-index:10;
 }
