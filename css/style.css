@@ -228,9 +228,8 @@ mark{
 	min-width: 1150px;
 }
 .img-wrap img {
-	width:40%;
+	width:100%;
 	display:block;
-	padding-left: 300px
 }
 .z-bigger  {
 	z-index:10;
