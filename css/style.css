@@ -267,6 +267,10 @@ mark{
 .padding-top-big {
 	padding-top: 110px;
 }
+.padding-top-big-featured {
+	/*padding-top: 10px;*/
+}
+
 .padding-bottom-big {
 	padding-bottom: 110px;
 }
@@ -1448,7 +1452,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 .logo-wrap li img{
 	display: block;
-	height: 28px;
+	height: 150px;
 }
 
 /* #Team
