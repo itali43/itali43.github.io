@@ -4,6 +4,11 @@
 .loader svg rect{
 	fill: #7b5eea;
 }
+.loader.panick svg path,
+.loader.panick svg rect{
+	fill: #FF0000;
+}
+
 .hero-center-wrap p span.font-big-color,
 .countdown li,
 .table-sale.future-price h4,

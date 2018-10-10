@@ -74,6 +74,10 @@ mark{
 .loader.dark {
 	background-color: #0e0529;
 }
+.loader.panick {
+	background-color: #FF0000;
+}
+
 .loader.green {
 	background-color: #fff;
 }
