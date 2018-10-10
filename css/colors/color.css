@@ -24,17 +24,17 @@
 .menu-back.dark .nav-item ul li a:hover{
 	color: #7b5eea;
 }
-.menu-back.dark .nav-link:hover,  
+.menu-back.dark .nav-link:hover,
 .menu-back.dark .nav-link:active,
-.nav-link:hover,  
+.nav-link:hover,
 .nav-link:active {
 	color: #7b5eea !important;
-	border-color: #7b5eea !important; 
+	border-color: #7b5eea !important;
 }
 .nav-link.mPS2id-highlight,
 .menu-back.dark .nav-link.mPS2id-highlight{
 	color: #7b5eea !important;
-	border-color: #7b5eea !important; 
+	border-color: #7b5eea !important;
 }
 .color-pr{
 	color: #7b5eea !important;
@@ -65,6 +65,16 @@ input.btn.btn-primary,
 .next-roadmap.dark{
 	background-color: #7b5eea !important;
 }
+.btn-panick, .btn-panick:hover{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.btn-nda, .btn-nda:hover{
+	background-color: #E94A42;
+	color: #FFFFFF;
+}
+
+
 .table-sale.future-price .table-line,
 .nav-item:hover ul,
 .roadmap-box:after,
@@ -76,28 +86,28 @@ input.btn.btn-primary,
 	background-color: #7b5eea !important;
 }
 .countdown li {
-	box-shadow: 0 8px 40px -6px rgba(123, 94, 234, 0.2); 
+	box-shadow: 0 8px 40px -6px rgba(123, 94, 234, 0.2);
 }
 .table-shadow {
-	box-shadow: 0 8px 60px -6px rgba(123, 94, 234, 0.7); 
+	box-shadow: 0 8px 60px -6px rgba(123, 94, 234, 0.7);
 }
 .sub-shadow{
-	box-shadow: 0 8px 30px -6px rgba(123, 94, 234, 0.2); 
+	box-shadow: 0 8px 30px -6px rgba(123, 94, 234, 0.2);
 }
 .roadmap-shadow{
-	box-shadow: 0 8px 40px -6px rgba(123, 94, 234, 0.3); 
+	box-shadow: 0 8px 40px -6px rgba(123, 94, 234, 0.3);
 }
 .video-shadow{
-	box-shadow: 0 8px 60px -6px rgba(123, 94, 234, 0.3); 
+	box-shadow: 0 8px 60px -6px rgba(123, 94, 234, 0.3);
 }
 .prev-roadmap,
 .next-roadmap{
-	box-shadow: 0 8px 35px -6px rgba(123, 94, 234, 0.7); 
+	box-shadow: 0 8px 35px -6px rgba(123, 94, 234, 0.7);
 }
-.team-img-wrap img{ 
+.team-img-wrap img{
 	box-shadow: 0 8px 15px -6px rgba(123, 94, 234, 0.5);
 }
-.team-img-wrap:hover img{ 
+.team-img-wrap:hover img{
 	box-shadow: 0 8px 45px -6px rgba(123, 94, 234, 0.3);
 }
 .roadmap-box:before{
@@ -137,39 +147,15 @@ figure.vimeo:hover a:after, figure.youtube:hover a:after {
 ::-moz-selection {
 	background-color: #7b5eea;
 }
-@media (max-width: 991px) { 
-	.nav-link:hover,  
+@media (max-width: 991px) {
+	.nav-link:hover,
 	.nav-link:active {
-		border-color: transparent !important; 
+		border-color: transparent !important;
 	}
 	.sub-shadow{
-		box-shadow: 0 8px 40px -6px rgba(123, 94, 234, 0); 
+		box-shadow: 0 8px 40px -6px rgba(123, 94, 234, 0);
 	}
 	.nav-item:hover ul{
 		border-color: transparent;
-	}	
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
