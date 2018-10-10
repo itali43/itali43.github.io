@@ -190,6 +190,10 @@ mark{
 .background-light-blue {
 	background-color: rgba(245, 231, 252, 0.9);
 }
+.background-panick {
+	background-color: #FFfbfb;
+}
+
 .background-gradient-dark{
 	background: linear-gradient(#0e0529, #1e0b56);
 }
@@ -816,6 +820,10 @@ mark{
 .ocean.dark .wave{
 	background: url('../img/wave-dark.svg') repeat-x;
 }
+.ocean.panick .wave{
+	background: url('../img/wave-panick.svg') repeat-x;
+}
+
 .ocean.blue{
 	background: #004cff;
 }
