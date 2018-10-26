@@ -1106,9 +1106,9 @@ mark{
 	text-align: center;
 	font-family: 'Work Sans', sans-serif;
 	font-weight:700;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 100px;
-	opacity: 0.1;
+	opacity: 0.35;
 }
 .title-wrap .back-title.strong{
 	opacity: 0.3;
