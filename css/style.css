@@ -329,6 +329,13 @@ mark{
 	border-radius: 20px;
 	box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.17);
 }
+.img-wrapios img {
+    box-shadow: rgba(0, 0, 0, 0.62) 1px 10px 20px 1px;
+		position:relative;
+		width:100%;
+
+}
+
 .section.z-bigger-demo  {
 	z-index: 10000 !important;
 }
