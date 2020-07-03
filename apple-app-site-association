@@ -1,20 +1,17 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "5CY5UTYJH5.com.MoonshotApps.UniversalLinker",
-                "paths": [*]
-            }
-        ]
-    }
+  "applinks": {
+      "apps": [],
+      "details": [
+           {
+             "appID": "5CY5UTYJH5.com.MoonshotApps.UniversalLinker",
+             "paths": [ "/buy/*", "NOT /help/website/*", "/help/" ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "5CY5UTYJH5.com.MoonshotApps.UniversalLinker" ]
+   }
 }
-
-
-
-
-
-
 
 
 
