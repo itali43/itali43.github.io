@@ -4,7 +4,7 @@
       "details": [
            {
              "appID": "5CY5UTYJH5.com.MoonshotApps.UniversalLinkerL",
-             "paths": [ "/buy/*", "NOT /help/website/*", "/help/" ]
+             "paths": ["*"]
            }
        ]
    },
